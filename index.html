@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Index des motifs</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:2rem}
+    h2{margin-top:2rem}
+    ul{line-height:1.6}
+    a{text-decoration:none;color:#0066cc}
+  </style>
+</head>
+<body>
+  <h1>Liste des motifs EST</h1>
+  <div id="menu"></div>
+
+  <script>
+    fetch('est.json')
+      .then(r => r.json())
+      .then(data => {
+        const grp={};                       // groupe par 1er chiffre (centaine)
+        data.motifs_est.forEach(m=>{
+          const g = m.numero_motif[1];      // 1,2… -> "Cardio","Trauma"…
+          (grp[g]=grp[g]||[]).push(m);
+        });
+
+        const menu = document.getElementById('menu');
+        Object.keys(grp).sort().forEach(g=>{
+          const titre = {
+            '0':'Cardio-vasculaire - Respiratoire',
+            '1':'Neurologie - Psychiatrie',
+            '2':'Traumatologie',
+            '3':'Digestif - Gynécologie - Obstétrique',
+            '4':'Urologie - Néphrologie',
+            '5':'Infectieux / Thermique',
+            '6':'ORL',
+            '7':'Dermatologie - Allergologie',
+            '8':'Rhumatologie',
+            '9':'Autres'
+          }[g] || `Groupe ${g}`;
+
+          const ul=document.createElement('ul');
+          grp[g].forEach(m=>{
+            const li=document.createElement('li');
+            li.innerHTML=`<a href="motif.html?id=${m.numero_motif}">${m.numero_motif} – ${m.motif}</a>`;
+            ul.appendChild(li);
+          });
+
+          menu.insertAdjacentHTML('beforeend',`<h2>${titre}</h2>`);
+          menu.appendChild(ul);
+        });
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1862 @@
+{
+    "motifs_est": [
+        {
+            "numero_motif": "1001",
+            "motif": "Arrêt cardiaque, respiratoire",
+            "degres_possibles": [
+                1
+            ],
+            "definition_degres": {
+                "1": [
+                    ""
+                ]
+            }
+        },
+        {
+            "numero_motif": "1002",
+            "motif": "Douleur thoracique",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Sus-décalage du segment ST à l’ECG préhospitalier",
+                    "Douleur intense persistante au moment du tri",
+                    "Présence de symptômes/signes associés (pâleur, teint gris, sudation, malaise, nausées)",
+                    "Dyspnée associée"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1003",
+            "motif": "Tachycardie / troubles du rythme / palpitations",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1004",
+            "motif": "Bradycardie",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1005",
+            "motif": "Hypertension",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1006",
+            "motif": "Hypotension",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1007",
+            "motif": "Douleur et/ou œdème d’un membre",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Suspicion d’insuffisance artérielle"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1008",
+            "motif": "Dyspnée - tachypnée - bradypnée - désaturation",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Stridor chez l’adulte",
+                    "Utilisation des muscles accessoires chez l’adulte",
+                    "Changement de la voix chez l’adulte",
+                    "Patient trachéotomisé / laryngectomisé",
+                    "Difficulté à terminer les phrases",
+                    "Stridor continu au repos",
+                    "Stridor avec tirage et/ou balancement thoraco-abdominal"
+                ],
+                "2": [
+                    "Pneumothorax diagnostiqué avant admission aux urgences ou fortement suspecté",
+                    "SPO2 < 93% (94 % chez l’enfant) à l’air ambiant en extrahospitalier MAIS > 93% (94% chez l’enfant) sous oxygène au tri",
+                    "Stridor lors d’agitation et pleurs",
+                    "Tirage sévère",
+                    "Balancement thoraco-abdominal sévère"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1009",
+            "motif": "Toux, expectorations",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Quinte de toux ininterrompue chez l’enfant < 1 an",
+                    "Porteur d’une trachéotomie",
+                    "Notion de noyade"
+                ],
+                "3": [
+                    "Toux aiguë/chronique avec inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1010",
+            "motif": "Hémoptysie",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Extériorisation massive de sang objectivée à l’accueil ou en extrahospitalier"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1101",
+            "motif": "Coma/Trouble état de conscience sans cause évidente",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Présence de pétéchies, purpura",
+                    "Etat stuporeux d’apparition brutale < 8h (ou au réveil)",
+                    "Notion de noyade dans les dernières 48h"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1102",
+            "motif": "Agitation - agressivité",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Comportement mettant en danger la sécurité du patient et/ou d’autrui et/ou ne pouvant pas être contenu par le dialogue"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1103",
+            "motif": "Confusion d’apparition récente / Trouble du comportement récent",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Etat confusionnel, trouble du comportement ou troubles cognitifs mettant en danger la sécurité du patient et/ou d’autrui",
+                    "Apparition brutale < 8 heures"
+                ],
+                "2": [
+                    "Etat confusionnel, trouble du comportement ou troubles cognitifs d’apparition récente (>8h < 48h)"
+                ],
+                "3": [
+                    "Aggravation de troubles cognitifs connus"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1104",
+            "motif": "Convulsion en cours ou récente / Mouvements involontaires",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Convulsions en cours",
+                    "Etat postcritique avec :",
+                    "Glasgow < 8",
+                    "P ou U de l’AVPU"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1105",
+            "motif": "Paralysie, parésie, paresthésie, aphasie, dysarthrie, diplopie, amputation du champ visuel, amnésie",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Délai d’apparition / constatation (y.c. au réveil) des symptômes < 8h sauf symptômes isolés suivants : Paresthésies isolées, Symptômes bilatéraux isolés (non moteurs), Hypoesthésie isolée",
+                    "Délai d’apparition / constatation des symptômes > 8h et < 24h (chez patient autonome) ET présence de 3 ou 4 des symptômes suivants : déviation du regard / parésie faciale / parésie d’un bras / trouble de l’élocution"
+                ],
+                "2": [
+                    "Délai d’apparition / constatation des symptômes > 8h et < 24h (chez patient autonome) ET présence de 0 à 2 des symptômes suivants : déviation du regard / parésie faciale / parésie d’un bras / trouble de l’élocution sauf symptômes isolés suivants :Paresthésies isolées, Symptômes bilatéraux isolés (non moteurs)"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1106",
+            "motif": "Céphalées violentes ou inhabituelles",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Présence de pétéchies, purpura",
+                    "Signes méningés (raideur de nuque et/ou photophobie et/ou vomissements en jet)",
+                    "Troubles neurologiques apparus ou s’étant aggravés dans les dernières 24h",
+                    "Troubles de l’état de conscience"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1107",
+            "motif": "Céphalées légères à modérées ou chroniques",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Céphalées légères/chroniques avec modification récente"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1108",
+            "motif": "Malaise avec ou sans perte de connaissance",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Palpitations précédant le malaise",
+                    "Malaise sans prodrome ou à l’emporte-pièce",
+                    "Dyspnée associée",
+                    "Survenue à l’effort",
+                    "Survenue au décubitus",
+                    "Malaise du nourrisson"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1109",
+            "motif": "Crise d’angoisse – idéation suicidaire – mutisme",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Intention exprimée par le patient, de passage à l’acte suicidaire imminent"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1110",
+            "motif": "Anxiété, dépression",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Symptomatologie nouvelle ou récemment modifiée"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1111",
+            "motif": "Abus/intoxication médicaments, drogues",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Intention exprimée par le patient, de passage à l’acte suicidaire imminent"
+                ],
+                "2": [
+                    "Ingestion de substance(s) à haut potentiel toxique (doses, heure d’ingestion, effets indésirables possibles)"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1112",
+            "motif": "Abus/intoxication alcoolique",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Risque d’apparition de troubles de l’état de conscience en lien avec la cinétique et la dose d’alcool ingéré, l’âge et les habitudes de consommation"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1113",
+            "motif": "Symptômes de sevrage / Demande de sevrage",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Symptômes de sevrage modérés à sévères (Sevrage alcoolique : Score CIWA-ar ≥ 8 ; Sevrage aux opiacés : Score COWS ≥ 13)"
+                ],
+                "3": [
+                    "Sevrage ou demande de sevrage avec symptômes et/ou signes cliniques de sevrage légers (Sevrage alcoolique : Score CIWA-ar <8 ; Sevrage aux opiacés : Score COWS <13)"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1114",
+            "motif": "Hallucinations",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Hallucinations menaçantes mettant en danger la sécurité du patient et/ou de l’entourage"
+                ],
+                "2": [
+                    "Hallucinations récentes, non menaçantes"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1115",
+            "motif": "Fatigue / Insomnie",
+            "degres_possibles": [
+                4
+            ],
+            "definition_degres": {
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1116",
+            "motif": "Vertiges",
+            "degres_possibles": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "1": [
+                    "Ne tient pas debout ou assis depuis < 8h (ou au réveil)"
+                ],
+                "2": [
+                    "Apparition < 24h d'au moins une caractéristique suivante évoquant une origine centrale : Début soudain et unique, Ne tient pas debout ou assis depuis > 8h et < 24h, Céphalée/cervicalgies inhabituelle, Troubles neurologiques associés en particulier diplopie, dysphagie, dysarthrie, dysphonie, hoquet"
+                ],
+                "3": [
+                    "Apparition > 24h et < 7 jours d'au moins une caractéristique suivante évoquant une origine centrale : Début soudain et unique, Ne tient pas debout ou assis, Céphalée/cervicalgies inhabituelles, Troubles neurologiques associés en particulier diplopie, dysphagie, dysarthrie, dysphonie, hoquet",
+                    "Apparition < 7 jours d'au moins une caractéristique suivante évoquant une origine périphérique : Evolution paroxystique, épisodes répétés de brève durée (< 1 min env.) avec le changement de position, Acouphène nouveau"
+                ],
+                "4": [
+                    "Symptômes datant de plus de 7 jours (vertiges non aigus), quelle que soit leur évocation"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1201",
+            "motif": "Polytraumatisé",
+            "degres_possibles": [
+                1
+            ],
+            "definition_degres": {
+                "1": [
+                    "Blessé grave atteint de plusieurs lésions dont une au moins met en jeu le pronostic vital"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1202",
+            "motif": "Perte d’un membre",
+            "degres_possibles": [
+                1
+            ],
+            "definition_degres": {
+                "1": [
+                    "Amputation ou délabrement important d’un membre ou de son extrémité"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1202",
+            "motif": "Perte d’un membre",
+            "degres_possibles": [
+                1
+            ],
+            "definition_degres": {
+                "1": [
+                    "Amputation ou délabrement important d’un membre ou de son extrémité"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1203",
+            "motif": "Traumatisme du rachis avec déficit",
+            "degres_possibles": [
+                1
+            ],
+            "definition_degres": {
+                "1": [
+                    "Lésion traumatique de la colonne vertébrale associée à un trouble/déficit moteur et/ou sensitif"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1204",
+            "motif": "Traumatisme du rachis sans déficit",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)",
+                    "Hémophilie / anticoagulation",
+                    "Femme enceinte > 20 SA"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1205",
+            "motif": "Traumatisme / Contusion thoracique",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Traumatismes pénétrants"
+                ],
+                "2": [
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Pneumothorax diagnostiqué avant l’admission aux urgences ou fortement suspecté, Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Hémophilie / anticoagulation",
+                    "Femme enceinte > 20 SA"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1206",
+            "motif": "Traumatisme abdominal",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Traumatismes pénétrants"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1207",
+            "motif": "Traumatisme crânien + perte de connaissance / Amnésie circonstancielle",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Troubles neurologiques nouveaux, depuis le TC (trouble de l’équilibre, trouble phasique, de force, de sensibilité, de la vision)",
+                    "Agitation nouvelle, depuis le TC / somnolence",
+                    "Bombement de la fontanelle"
+                ],
+                "2": [
+                    "TC + PC / Amnésie Circonstancielle < 24H",
+                    "Présence de symptômes/signes associés",
+                    "Femme enceinte > 20 SA",
+                    "Vomissements répétés et/ou tardifs",
+                    "Troubles du comportement préexistants",
+                    "Bosse fluctuante pour les enfants < 6 mois",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
+                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1208",
+            "motif": "Traumatisme crânien sans perte de connaissance ni amnésie",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Troubles neurologiques nouveaux (trouble de l’équilibre, trouble phasique, de force, de sensibilité, de la vision)",
+                    "Agitation nouvelle, depuis le TC",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
+                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)"
+                ],
+                "2": [
+                    "Présence de symptômes / signes associés",
+                    "Femme enceinte > 20 SA"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1209",
+            "motif": "Traumatisme du bassin",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
+                    "Femme enceinte > 20 SA",
+                    "Hémophilie / anticoagulation"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1210",
+            "motif": "Traumatisme d’un membre",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Risque de lésions vasculaires et/ou nerveuses",
+                    "Fracture fémur diaphysaire",
+                    "Fractures ouvertes et/ou luxations < 24h",
+                    "Suspicion de syndrome des loges",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Hémophilie"
+                ],
+                "3": [
+                    "Traumatisme avec inconfort important et/ou impotence fonctionnelle",
+                    "Femme enceinte > 20 SA"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1211",
+            "motif": "Traumatisme maxillo-facial / du cou / Traumatisme isolé du nez / Strangulation",
+            "degres_possibles": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "1": [
+                    "Dysphonie",
+                    "Stridor",
+                    "Déformation importante de la face",
+                    "Hémorragie majeure ou menaçant les voies aériennes",
+                    "Détresse respiratoire",
+                    "Troubles neurologiques apparus ou s’étant aggravés dans les dernières 24h"
+                ],
+                "2": [
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)",
+                    "Perte de connaissance",
+                    "Céphalées intenses",
+                    "Troubles auditifs et/ou visuels",
+                    "Troubles de la déglutition",
+                    "Otorragie",
+                    "Rhinorrhée",
+                    "Hémophilie / anticoagulation",
+                    "Femme enceinte > 20 SA"
+                ],
+                "3": [
+                    "Traumatisme isolé du nez avec épistaxis mineur persistant"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1212",
+            "motif": "Plaie profonde",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Hémorragie majeure",
+                    "Localisation de la plaie : cou, thorax, abdomen, périnée",
+                    "Actions de soins préhospitalières : garrot, remplissage avec hypoTA persistante à l’arrivée aux urgences"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1213",
+            "motif": "Plaie superficielle",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Plaie à suturer"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1214",
+            "motif": "Brûlures",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Brûlures du 2ème et/ou 3ème degré : > 30% de la surface corporelle, De la face, Circulaires",
+                    "Suspicion de brûlure des voies aériennes"
+                ],
+                "2": [
+                    "Brûlures du 2ème et/ou 3ème degré de 10 à 30% de la surface corporelle",
+                    "Brûlures du 2ème et/ou 3ème degré du périnée, des mains ou des pieds"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1215",
+            "motif": "Gelures",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Nécessité de réchauffement précoce"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1216",
+            "motif": "Morsure",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Risque d’envenimation",
+                    "Compromission nerveuse et/ou vasculaire",
+                    "Syndrome des loges"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1301",
+            "motif": "Hématémèse, méléna",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Extériorisation massive objectivée à l’accueil ou en extrahospitalier"
+                ],
+                "2": [
+                    "Altération de l’état général"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1302",
+            "motif": "Hématochésie",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Extériorisation massive objectivée à l’accueil ou en extrahospitalier",
+                    "Émission de gelée de groseilles chez l’enfant"
+                ],
+                "2": [
+                    "Altération de l’état général"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1303",
+            "motif": "Douleurs abdominales",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Début brutal",
+                    "Douleur en coup de poignard",
+                    "Douleur transfixiante",
+                    "Arrêt des gaz et des matières depuis plus de 24h",
+                    "Vomissements fécaloïdes",
+                    "Gestes invasifs réalisés dans les dernières 72 heures (ponction, biopsie, endoscopie)",
+                    "Grossesse > 20 SA avec ATCD de césarienne ou chirurgie utérine",
+                    "Température > 38.5 °C",
+                    "Hémophilie / anticoagulation",
+                    "Antécédent de bypass gastrique. Si antécédent de sleeve (résection partielle de l’estomac par agrafage longitudinal ; pas de risque de hernie interne) ⇒ Degré 3"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1304",
+            "motif": "Nausées, vomissements",
+            "degres_possibles": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Grossesse > 20 SA",
+                    "Vomissements dans les dernières heures"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1305",
+            "motif": "Épigastralgies",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1306",
+            "motif": "Constipation",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important",
+                    "Absence de réponse à un traitement entrepris avant cette consultation aux urgences"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1307",
+            "motif": "Diarrhées",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Grossesse > 20 SA",
+                    "Diarrhées dans les dernières heures"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1308",
+            "motif": "Affection mammaire",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1309",
+            "motif": "Douleur anale / affection anale",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1310",
+            "motif": "Douleurs pelviennes, inguinales",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "TG positif avant 1ère échographie de visualisation de la grossesse",
+                    "Douleurs inguinales avec interruption du transit",
+                    "Geste chirurgical gynécologique < 1 mois",
+                    "Accouchement par césarienne < 1 mois",
+                    "Grossesse > 20 SA avec ATCD de césarienne ou chirurgie utérine",
+                    "Douleur latéralisée d’apparition brutale chez une femme en âge de procréer",
+                    "Hémophilie / anticoagulation"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1311",
+            "motif": "Contractions utérines / accouchement",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Phase finale d’expulsion",
+                    "Bébé né",
+                    "Contracture utérine (contraction prolongée > 2 minutes)"
+                ],
+                "2": [
+                    "Liquide méconial / teinté"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1312",
+            "motif": "Saignement vaginal",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Saignement actif ou caillots chez une femme enceinte"
+                ],
+                "2": [
+                    "Grossesse > 20 SA",
+                    "Saignement actif ou caillots",
+                    "Geste chirurgical gynécologique < 1 mois",
+                    "Accouchement par césarienne < 1mois",
+                    "Association de grossesse < 20 SA et douleurs abdomino-pelviennes",
+                    "TG positif sans confirmation US de grossesse intra-utérine",
+                    "Saignement sous traitement anticoagulant/hémophilie"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1313",
+            "motif": "Pertes vaginales",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Liquide amniotique méconial / teinté"
+                ],
+                "3": [
+                    "Fièvre et grossesse > 12 SA",
+                    "Perte de liquide amniotique et grossesse > 20 SA"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1314",
+            "motif": "Prolapsus génital",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1315",
+            "motif": "Baisse des mouvements fœtaux",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1316",
+            "motif": "Contrôle vitalité fœtale",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1317",
+            "motif": "Procidence du cordon",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Grossesse > 20 SA"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1318",
+            "motif": "Tachycardie fœtale",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1319",
+            "motif": "Bradycardie fœtale",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Décélération"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1401",
+            "motif": "Douleur loge rénale",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Persistance de la douleur",
+                    "Rein unique"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1402",
+            "motif": "Hématurie macroscopique",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1403",
+            "motif": "Anurie, rétention urinaire",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Rétention urinaire avec suspicion de sepsis",
+                    "Rein unique"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1404",
+            "motif": "Brûlure mictionnelle, pollakiurie",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important",
+                    "Grossesse > 20 SA"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1405",
+            "motif": "Affection testiculaire/pénienne",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Douleur faisant suspecter une torsion testiculaire",
+                    "Priapisme",
+                    "Hématome important sur traumatisme",
+                    "Tuméfaction/déformation pénienne",
+                    "Risque de lésion vasculaire et/ou nerveuse"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1406",
+            "motif": "Polyurie - polydipsie / Hyperglycémie - hypoglycémie",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Surdosage (intentionnel ou accidentel) d’insuline»"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1407",
+            "motif": "Incontinence urinaire",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Chirurgie pelvi-abdominale récente",
+                    "Apparition aiguë",
+                    "Inconfort important associé à un prolapsus génital"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1501",
+            "motif": "Fièvre",
+            "degres_possibles": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "1": [
+                    "Pétéchies / purpura",
+                    "Troubles de l’état de conscience"
+                ],
+                "2": [
+                    "Immunosuppression, greffé, chimiothérapie récente",
+                    "Altération majeure de l’état général",
+                    "Confusion",
+                    "Photophobie"
+                ],
+                "3": [
+                    "Etat fébrile mal toléré cliniquement"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1502",
+            "motif": "Syndrome grippal",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important",
+                    "Grossesse > 20 SA"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1503",
+            "motif": "Hypothermie",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1601",
+            "motif": "Affection ORL",
+            "degres_possibles": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "1": [
+                    "Hémorragie post-tonsillectomie jusqu’à 3 semaines post-tonsillectomie ; si reprise chirurgicale compter à nouveau 3 semaines supplémentaires.",
+                    "Trachéotomie avec saignement",
+                    "Changement de la voix avec au minimum un des critères suivants : dyspnée, stridor, hypersalivation"
+                ],
+                "2": [
+                    "Trismus",
+                    "Changement de la voix avec odynodysphagie (ou aphagie) rapidement progressive (< 12 h)",
+                    "Otalgie avec tuméfaction rétro-auriculaire",
+                    "Tuméfaction sous-linguale en progression depuis < 12 h",
+                    "Tuméfaction cervicale ou sous-mandibulaire avec odynophagie récentes",
+                    "Tuméfaction de la face (joue, front, paupière)"
+                ],
+                "3": [
+                    "Perte de l’audition brutale unilatérale",
+                    "Tuméfaction cervicale récente",
+                    "Problème avec matériel de prothèse phonatoire ou canule de trachéotomie",
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1602",
+            "motif": "Epistaxis",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Epistaxis non contrôlée malgré les mesures de compression",
+                    "Persistance d’un écoulement sanguin postérieur malgré des mesures de compression efficaces"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1701",
+            "motif": "Réaction allergique",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Dyspnée",
+                    "Dysphagie",
+                    "Dysphonie",
+                    "Confusion",
+                    "Angoisse",
+                    "Sibilances ou stridor",
+                    "Oppression thoracique",
+                    "Cyanose",
+                    "Perte de connaissance"
+                ],
+                "2": [
+                    "ATCD de réactions allergiques graves",
+                    "Atteinte cutanée et/ou muqueuse progressant rapidement dans la dernière heure"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1702",
+            "motif": "Affection génitale",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Inconfort important",
+                    "Traumatisme génital"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1703",
+            "motif": "Affection/infection cutanée/des tissus mous",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Signes d’infection sévère des tissus mous",
+                    "Purpura",
+                    "Décollement cutané et/ou muqueux"
+                ],
+                "3": [
+                    "Affection au niveau d’un site opératoire avec chirurgie < 1 mois",
+                    "Matériel prothétique en place",
+                    "Inconfort important",
+                    "Grossesse > 20 SA"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1801",
+            "motif": "Cervicalgie, dorsalgie, lombalgie",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Déficit moteur < 24h ou progressif",
+                    "Troubles sphinctériens"
+                ],
+                "3": [
+                    "Inconfort important et/ou état fébrile"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1802",
+            "motif": "Arthralgies, myalgies, névralgies, boiterie",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Arthralgie avec : Hémophilie, Suspicion d’arthrite septique, Crise drépanocytaire"
+                ],
+                "3": [
+                    "Inconfort important ou impotence fonctionnelle"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1901",
+            "motif": "Problème ophtalmologique",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Traumatisme de l’œil avec suspicion d’une perforation ou baisse de l’acuité visuelle",
+                    "Suspicion de glaucome aigu",
+                    "Suspicion d’endophtalmie",
+                    "Projection de produits chimiques"
+                ],
+                "3": [
+                    "Inconfort important"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1902",
+            "motif": "Maladie de décompression, barotraumatisme",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Douleur thoracique, dyspnée, troubles neurologiques"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1903",
+            "motif": "Ingestion/inhalation/exposition à un toxique",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1904",
+            "motif": "Ingestion/inhalation/insertion de corps étranger",
+            "degres_possibles": [
+                1,
+                2,
+                3
+            ],
+            "definition_degres": {
+                "1": [
+                    "Stridor et/ou cyanose associés à l’inhalation d’un corps étranger"
+                ],
+                "2": [
+                    "Hypersalivation et odynodysphagie",
+                    "Ingestion pile/aimant/objet tranchant"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1905",
+            "motif": "Electrisation",
+            "degres_possibles": [
+                1,
+                2
+            ],
+            "definition_degres": {
+                "1": [
+                    "Troubles du rythme, de l’état de conscience et/ou douleur thoracique, convulsions",
+                    "Courant > 1000 Volts",
+                    "Polytraumatisme associé"
+                ],
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1906",
+            "motif": "Body pack",
+            "degres_possibles": [
+                3
+            ],
+            "definition_degres": {
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1907",
+            "motif": "Hospitalisation sociale",
+            "degres_possibles": [
+                4
+            ],
+            "definition_degres": {
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1908",
+            "motif": "Suite d’hospitalisation",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Nécessité d’une surveillance continue"
+                ],
+                "3": [
+                    "Nécessité d’un bilan complémentaire aux urgences"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1909",
+            "motif": "Examens paracliniques perturbés",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Perturbations sévères des examens"
+                ],
+                "3": [
+                    "Prise en soins en urgence nécessaire"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1910",
+            "motif": "Problème dentaire",
+            "degres_possibles": [
+                2,
+                3,
+                4
+            ],
+            "definition_degres": {
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Tuméfaction visible",
+                    "Absence de réponse à un traitement antalgique approprié",
+                    "Dent définitive avulsée"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1911",
+            "motif": "Baisse de l’état général",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Détérioration de l’état général rendant le maintien impossible à domicile et justifiant une hospitalisation"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1912",
+            "motif": "Chute de la personne âgée",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Notion de chutes à répétition dans un espace-temps limité et récent",
+                    "Retour à domicile inenvisageable"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1913",
+            "motif": "Greffe",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1914",
+            "motif": "Conseil, attestation, ordonnance",
+            "degres_possibles": [
+                4
+            ],
+            "definition_degres": {
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1915",
+            "motif": "Prophylaxie Post Exposition (PEP), Accident d’Exposition au Sang et/ou liquide biologique (AES)",
+            "degres_possibles": [
+                3
+            ],
+            "definition_degres": {
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1916",
+            "motif": "Agression sexuelle",
+            "degres_possibles": [
+                2,
+                3
+            ],
+            "definition_degres": {
+                "2": [
+                    "Idées suicidaires",
+                    "Saignement actif"
+                ],
+                "3": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1917",
+            "motif": "Constat de coup",
+            "degres_possibles": [
+                4
+            ],
+            "definition_degres": {
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1918",
+            "motif": "Hoquet",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Hoquet handicapant, persistant depuis plus de 48 heures, réfractaire à un traitement débuté en ambulatoire, référé par un médecin traitant"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1919",
+            "motif": "Gestes techniques, examens, datation de grossesse",
+            "degres_possibles": [
+                3,
+                4
+            ],
+            "definition_degres": {
+                "3": [
+                    "Geste qui va prévenir la survenue d’une complication (exemple : globe vésical, retard de traitement) ou tout autre plainte somatique",
+                    "Patient asymptomatique avec anamnèse d’événement récent inquiétant (accident à haute énergie, noyade, etc.)"
+                ],
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        },
+        {
+            "numero_motif": "1920",
+            "motif": "Consultation programmée",
+            "degres_possibles": [
+                4
+            ],
+            "definition_degres": {
+                "4": [
+                    "Selon les critères du tableau « paramètres vitaux »"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Détail du motif</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:2rem;max-width:50rem}
+    h1 span{color:#666;font-size:.7em}
+    .degre{margin:1.2rem 0}
+    .degre h3{margin-bottom:.3rem}
+    ul{margin:.3rem 0 0 1.2rem}
+  </style>
+</head>
+<body>
+  <a href="index.html">← Retour à l’index</a>
+  <h1 id="titre"></h1>
+  <div id="contenu"></div>
+
+  <script>
+    const id = new URLSearchParams(location.search).get('id');
+    fetch('est.json')
+      .then(r => r.json())
+      .then(data => {
+        const m = data.motifs_est.find(x=>x.numero_motif===id);
+        if(!m){ document.body.innerHTML='<h1>Motif introuvable</h1>'; return;}
+
+        document.getElementById('titre').innerHTML=
+          `${m.numero_motif} – ${m.motif} <span>(degrés ${m.degres_possibles.join(',')})</span>`;
+
+        const box=document.getElementById('contenu');
+        m.degres_possibles.forEach(d=>{
+          const div=document.createElement('div'); div.className='degre';
+          div.innerHTML=
+            `<h3>Degré ${d}</h3>` +
+            (m.definition_degres[d]
+              ? `<ul>${m.definition_degres[d].map(txt=>`<li>${txt||'–'}</li>`).join('')}</ul>`
+              : '<p>Aucune définition spécifique.</p>');
+          box.appendChild(div);
+        });
+      });
+  </script>
+</body>
+</html>
