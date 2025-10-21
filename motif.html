@@ -4,11 +4,19 @@
   <meta charset="utf-8">
   <title>Détail du motif</title>
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;margin:2rem;max-width:50rem}
+    body{font-family:Arial,Helvetica,sans-serif;margin:2rem;max-width:75rem}
     h1 span{color:#666;font-size:.7em}
     .degre{margin:1.2rem 0}
     .degre h3{margin-bottom:.3rem}
     ul{margin:.3rem 0 0 1.2rem}
+    /* ---------- 5-column table ---------- */
+    table{margin-top:2rem;border-collapse:collapse;width:100%;font-size:.8rem;text-align:center}
+    th,td{border:1px solid #bbb;padding:.3rem .2rem}
+    th{background:#f2f2f2}
+    .d1{background:#ffe5e5}
+    .d2{background:#fff2cc}
+    .d34{background:#e5f5e5}
+    .sub{font-size:.7rem;color:#555}
   </style>
 </head>
 <body>
@@ -16,6 +24,36 @@
   <h1 id="titre"></h1>
   <div id="contenu"></div>
 
+  <!--------------------- paramètres vitaux (5 colonnes) --------------------->
+  <table>
+    <thead>
+      <tr>
+        <th>Paramètres vitaux</th>
+        <th class="d1">Degré 1</th>
+        <th class="d2">Degré 2</th>
+        <th class="d34">Degré 3/4</th>
+        <th class="d2">Degré 2</th>
+        <th class="d1">Degré 1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Glasgow</td><td class="d1">≤ 8</td><td class="d2">9 – 13</td><td class="d34">14 – 15</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>Pupilles</td><td class="d1">—</td><td class="d2">Anormales</td><td class="d34">Normales</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>Pulsations (/min)</td><td class="d1">≤ 39</td><td class="d2">40 – 50</td><td class="d34">51 – 129</td><td class="d2">130 – 150</td><td class="d1">≥ 151</td></tr>
+      <tr><td>TA systolique (mmHg)</td><td class="d1">≤ 70</td><td class="d2">71 – 90</td><td class="d34">91 – 180</td><td class="d2">181 – 229</td><td class="d1">≥ 230</td></tr>
+      <tr><td>TA diastolique (mmHg) <span class="sub">Adulte &gt;16 ans</span></td><td class="d1">—</td><td class="d2">—</td><td class="d34">≤ 114</td><td class="d2">115 – 129</td><td class="d1">≥ 130</td></tr>
+      <tr><td>Index de choc</td><td class="d1">—</td><td class="d2">Pulsations &gt; TAS</td><td class="d34">Pulsations ≤ TAS</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>Fréquence respiratoire (/min)</td><td class="d1">≤ 8</td><td class="d2">9 – 12</td><td class="d34">13 – 24</td><td class="d2">25 – 35</td><td class="d1">≥ 36</td></tr>
+      <tr><td>Cyanose</td><td class="d1">—</td><td class="d2">Présente</td><td class="d34">Absente</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>SpO₂ (%)</td><td class="d1">≤ 89</td><td class="d2">90 – 93</td><td class="d34">94 – 100</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>Peak-flow</td><td class="d1">—</td><td class="d2">≤ 50 % prédit</td><td class="d34">&gt; 50 % prédit</td><td class="d2">—</td><td class="d1">—</td></tr>
+      <tr><td>Température centrale (°C)</td><td class="d1">≤ 31,9</td><td class="d2">32 – 35</td><td class="d34">35,1 – 40</td><td class="d2">&gt; 40</td><td class="d1">—</td></tr>
+      <tr><td>Glycémie (mmol/L)</td><td class="d1">—</td><td class="d2">≤ 3,9</td><td class="d34">4 – 24,9</td><td class="d2">≥ 25</td><td class="d1">—</td></tr>
+      <tr><td>Cétonémie (mmol/L)</td><td class="d1">—</td><td class="d2">—</td><td class="d34">≤ 0,6</td><td class="d2">≥ 0,6</td><td class="d1">—</td></tr>
+    </tbody>
+  </table>
+
+  <!-------------------------- motif details ---------------------------->
   <script>
     const id = new URLSearchParams(location.search).get('id');
     fetch('est.json')
@@ -32,7 +70,7 @@
           const div=document.createElement('div'); div.className='degre';
           div.innerHTML=
             `<h3>Degré ${d}</h3>` +
-            (m.definition_degres[d]
+            (m.definition_degres[d]?.length
               ? `<ul>${m.definition_degres[d].map(txt=>`<li>${txt||'–'}</li>`).join('')}</ul>`
               : '<p>Aucune définition spécifique.</p>');
           box.appendChild(div);
