@@ -17,20 +17,15 @@
             "motif": "Douleur thoracique",
             "degres_possibles": [
                 1,
-                2,
-                3
+                2
             ],
             "definition_degres": {
                 "1": [
                     "Sus-décalage du segment ST à l’ECG préhospitalier",
                     "Douleur intense persistante au moment du tri",
-                    "Présence de symptômes/signes associés (pâleur, teint gris, sudation, malaise, nausées)",
-                    "Dyspnée associée"
+                    "Présence de symptômes/signes associés (pâleur, teint gris, sudation, malaise, nausées)"
                 ],
                 "2": [
-                    "Selon les critères du tableau « paramètres vitaux »"
-                ],
-                "3": [
                     "Selon les critères du tableau « paramètres vitaux »"
                 ]
             }
@@ -141,16 +136,11 @@
                     "Utilisation des muscles accessoires chez l’adulte",
                     "Changement de la voix chez l’adulte",
                     "Patient trachéotomisé / laryngectomisé",
-                    "Difficulté à terminer les phrases",
-                    "Stridor continu au repos",
-                    "Stridor avec tirage et/ou balancement thoraco-abdominal"
+                    "Difficulté à terminer les phrases"
                 ],
                 "2": [
                     "Pneumothorax diagnostiqué avant admission aux urgences ou fortement suspecté",
-                    "SPO2 < 93% (94 % chez l’enfant) à l’air ambiant en extrahospitalier MAIS > 93% (94% chez l’enfant) sous oxygène au tri",
-                    "Stridor lors d’agitation et pleurs",
-                    "Tirage sévère",
-                    "Balancement thoraco-abdominal sévère"
+                    "SPO2 < 93% à l’air ambiant en extrahospitalier MAIS > 93% sous oxygène au tri"
                 ],
                 "3": [
                     "Selon les critères du tableau « paramètres vitaux »"
@@ -167,9 +157,7 @@
             ],
             "definition_degres": {
                 "2": [
-                    "Quinte de toux ininterrompue chez l’enfant < 1 an",
-                    "Porteur d’une trachéotomie",
-                    "Notion de noyade"
+                    "Porteur d’une trachéotomie"
                 ],
                 "3": [
                     "Toux aiguë/chronique avec inconfort important"
@@ -205,9 +193,7 @@
             "definition_degres": {
                 "1": [
                     "Présence de pétéchies, purpura",
-                    "Etat stuporeux d’apparition brutale < 8h (ou au réveil)",
-                    "Notion de noyade dans les dernières 48h"
-                ],
+                    "Etat stuporeux d’apparition brutale < 8h (ou au réveil)"                ],
                 "2": [
                     "Selon les critères du tableau « paramètres vitaux »"
                 ]
@@ -260,10 +246,7 @@
             "definition_degres": {
                 "1": [
                     "Convulsions en cours",
-                    "Etat postcritique avec :",
-                    "Glasgow < 8",
-                    "P ou U de l’AVPU"
-                ],
+                    "Etat postcritique avec : Glasgow < 8"                ],
                 "2": [
                     "Selon les critères du tableau « paramètres vitaux »"
                 ]
@@ -307,7 +290,7 @@
         },
         {
             "numero_motif": "1107",
-            "motif": "Céphalées légères à modérées ou chroniques",
+            "motif": "Céphalées légères ou chroniques",
             "degres_possibles": [
                 3,
                 4
@@ -334,8 +317,7 @@
                     "Malaise sans prodrome ou à l’emporte-pièce",
                     "Dyspnée associée",
                     "Survenue à l’effort",
-                    "Survenue au décubitus",
-                    "Malaise du nourrisson"
+                    "Survenue au décubitus"
                 ],
                 "3": [
                     "Selon les critères du tableau « paramètres vitaux »"
@@ -544,7 +526,7 @@
             ],
             "definition_degres": {
                 "2": [
-                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
                     "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)",
                     "Hémophilie / anticoagulation",
                     "Femme enceinte > 20 SA"
@@ -567,7 +549,7 @@
                     "Traumatismes pénétrants"
                 ],
                 "2": [
-                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Pneumothorax diagnostiqué avant l’admission aux urgences ou fortement suspecté, Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Pneumothorax diagnostiqué avant l’admission aux urgences ou fortement suspecté, Victime d’une explosion, Chute > 5m",
                     "Hémophilie / anticoagulation",
                     "Femme enceinte > 20 SA"
                 ],
@@ -603,16 +585,12 @@
             "definition_degres": {
                 "1": [
                     "Troubles neurologiques nouveaux, depuis le TC (trouble de l’équilibre, trouble phasique, de force, de sensibilité, de la vision)",
-                    "Agitation nouvelle, depuis le TC / somnolence",
-                    "Bombement de la fontanelle"
+                    "Agitation nouvelle, depuis le TC"
                 ],
                 "2": [
                     "TC + PC / Amnésie Circonstancielle < 24H",
                     "Présence de symptômes/signes associés",
                     "Femme enceinte > 20 SA",
-                    "Vomissements répétés et/ou tardifs",
-                    "Troubles du comportement préexistants",
-                    "Bosse fluctuante pour les enfants < 6 mois",
                     "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
                     "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)"
                 ],
@@ -632,13 +610,13 @@
             "definition_degres": {
                 "1": [
                     "Troubles neurologiques nouveaux (trouble de l’équilibre, trouble phasique, de force, de sensibilité, de la vision)",
-                    "Agitation nouvelle, depuis le TC",
-                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
-                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)"
+                    "Agitation nouvelle, depuis le TC"
                 ],
                 "2": [
                     "Présence de symptômes / signes associés",
-                    "Femme enceinte > 20 SA"
+                    "Femme enceinte > 20 SA",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m",
+                    "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)"
                 ],
                 "3": [
                     "Selon les critères du tableau « paramètres vitaux »"
@@ -709,7 +687,7 @@
                     "Troubles neurologiques apparus ou s’étant aggravés dans les dernières 24h"
                 ],
                 "2": [
-                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion, Chute > 5m, Enfant < 2 ans, chute ≥ 1 mètre ou de plus de 5 marches, Enfant > 2 ans, chute ≥ 2 mètres",
+                    "Mécanisme mettant en jeu une cinétique importante : Accélération ou décélération brutale, Ejection du véhicule, Victime décédée dans le même véhicule, Victime projetée ou écrasée, Accident impliquant piéton ou 2 roues, avec véhicule à vitesse élevée (>30 km/h), Victime d’une explosion",
                     "Mécanisme à risque pour une lésion du rachis cervical : Impact violent de la tête ou de la nuque, Choc axial (exemple : plongeon en eaux peu profondes)",
                     "Perte de connaissance",
                     "Céphalées intenses",
@@ -839,8 +817,7 @@
             ],
             "definition_degres": {
                 "1": [
-                    "Extériorisation massive objectivée à l’accueil ou en extrahospitalier",
-                    "Émission de gelée de groseilles chez l’enfant"
+                    "Extériorisation massive objectivée à l’accueil ou en extrahospitalier"
                 ],
                 "2": [
                     "Altération de l’état général"
@@ -879,7 +856,6 @@
             "numero_motif": "1304",
             "motif": "Nausées, vomissements",
             "degres_possibles": [
-                1,
                 2,
                 3,
                 4
